@@ -17,6 +17,7 @@ public class HelloController {
     public String say(@PathVariable(value = "id")Integer id){
         System.out.println("...");
         System.out.println("...");
+        System.out.println("...");
         return girProperties.getCupSize()+id;
     }
 
