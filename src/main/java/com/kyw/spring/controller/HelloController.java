@@ -16,6 +16,7 @@ public class HelloController {
     @RequestMapping(value = "/hello/{id}",method = RequestMethod.GET)
     public String say(@PathVariable(value = "id")Integer id){
         System.out.println("...");
+        System.out.println("...");
         return girProperties.getCupSize()+id;
     }
 
