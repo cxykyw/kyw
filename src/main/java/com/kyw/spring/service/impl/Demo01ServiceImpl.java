@@ -44,7 +44,7 @@ public class Demo01ServiceImpl implements Demo01Service {
         demo01DTO.setPageNo(pageNo);
         demo01DTO.setPageSize(pageSize);
         demo01DTO.setTotalCount(count);
-        demo01DTO.setResult(test1);
+        demo01DTO.setResult(result);
         return demo01DTO;
     }
 }

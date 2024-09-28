@@ -1,5 +1,6 @@
 package com.kyw.spring.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
@@ -27,6 +28,7 @@ public class Demo01 {
     /**
      * 
      */
+    @JsonIgnore
     @ApiModelProperty(value = "", name = "address")
     private String address;
 
