@@ -8,4 +8,6 @@ import java.util.List;
 
 public interface Demo01Service {
     PageInfo<Demo01> list(int pageNo, int pageSize, String userName);
+
+    String executeSql(String sql);
 }

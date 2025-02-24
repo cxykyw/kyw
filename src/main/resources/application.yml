@@ -15,3 +15,12 @@ mybatis:
   type-aliases-package: com.kyw.spring.domain
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs    # OpenAPI JSON文档路径
+  swagger-ui:
+    path: /swagger-ui.html # 原生UI路径
+    tags-sorter: alpha     # 按字母排序标签
+    operations-sorter: alpha
